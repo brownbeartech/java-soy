@@ -1,4 +1,4 @@
-package tech.brownbear.templates;
+package tech.brownbear.soy;
 
 import java.net.URL;
 import java.util.List;

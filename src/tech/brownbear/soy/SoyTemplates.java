@@ -1,4 +1,4 @@
-package tech.brownbear.templates;
+package tech.brownbear.soy;
 
 import com.google.template.soy.SoyFileSet;
 import com.google.template.soy.data.SoyRecord;

@@ -1,4 +1,4 @@
-package tech.brownbear.templates;
+package tech.brownbear.soy;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.gson.JsonElement;

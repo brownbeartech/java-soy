@@ -1,4 +1,4 @@
-package tech.brownbear.templates;
+package tech.brownbear.soy;
 
 import java.util.Collections;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package tech.brownbear.templates;
+package tech.brownbear.soy;
 
 import com.google.template.soy.data.SoyAbstractCachingValueProvider;
 import com.google.template.soy.data.SoyDict;

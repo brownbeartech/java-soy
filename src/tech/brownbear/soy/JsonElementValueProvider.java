@@ -1,4 +1,4 @@
-package tech.brownbear.templates;
+package tech.brownbear.soy;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
