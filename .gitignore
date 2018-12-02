@@ -1,0 +1,5 @@
+bazel-*
+*.swp
+*.swo
+.DS_Store
+.ijwb
