@@ -23,7 +23,8 @@ Soy templates can be simple. Each `.soy` file has a unique namespace and can con
 A template can take arguments like a view model.
 
 ```soy
-...
+{namespace your.template.namespace}
+
 /**
  * Comment
  * @param paramName Comment about param
