@@ -1,6 +1,6 @@
 # Soy library for Java
 
-[Google Closure Templates](https://developers.google.com/closure/templates/) is a great templating
+[Google Closure Templates](https://developers.google.com/closure/templates/) (Soy) is a great templating
 system for Java that has prebuild libraries for loading and rendering templates. This library provides
 two main functions, loading and caching the templates from their files and serializing Java objects
 for use in the templates.
@@ -63,16 +63,16 @@ Check out a seperate library, [Java Resource Management](https://github.com/brow
 for loading resorces in Java.
 
 ```java
-    FallbackResourceFetcher fetcher = ...; // https://github.com/brownbeartech/java-resources
-    TemplateLoader loader = () -> fetcher.findAll(p -> p.getFileName().toString.endsWith(".soy"));
-    SoyTemplateRenderer renderer = new SoyTemplates(loader);
-    String html = renderer.render("your.template.namespace.template");
+FallbackResourceFetcher fetcher = ...; // https://github.com/brownbeartech/java-resources
+TemplateLoader loader = () -> fetcher.findAll(p -> p.getFileName().toString.endsWith(".soy"));
+SoyTemplateRenderer renderer = new SoyTemplates(loader);
+String html = renderer.render("your.template.namespace.template");
 ```
 
 An if the template expects arguments they can be provided as a map
 
 ```java
-    Map<String, Object> args = new HashMap<>();
-    args.put("paramName", "value");
-    String html = renderer.render("your.template.namespace.template", args);
+Map<String, Object> args = new HashMap<>();
+args.put("paramName", "value");
+String html = renderer.render("your.template.namespace.template", args);
 ```
