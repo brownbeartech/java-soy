@@ -19,7 +19,7 @@ java_library(
         "@com_google_inject_guice_multibindings//jar",
         "@com_google_inject_guice//jar",
         "@com_google_inject_assistedinject//jar",
-        "@com_google_protobuf//jar",
+        "@com_google_protobuf_3.3//jar",
         "@com_google_common_html_types//jar",
         ":gson",
         ":jars",
