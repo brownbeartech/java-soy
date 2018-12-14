@@ -39,7 +39,7 @@ maven_jar(
 )
 
 maven_jar(
-    name = "com_google_protobuf_3.3",
+    name = "com_google_protobuf_3",
     artifact = "com.google.protobuf:protobuf-java:3.3.0",
 )
 
