@@ -17,7 +17,6 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "org.slf4j:slf4j-api:1.7.22",
-        "commons-logging:commons-logging:1.2",
         "com.google.guava:guava:28.0-jre",
         "com.google.template:soy:2017-04-23",
         "com.google.code.gson:gson:2.8.5",
